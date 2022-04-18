@@ -4,15 +4,8 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 git_repository(
     name = "tradestar_protos",
-    commit = "0e06bb981b9433f7c761c82d40f3bf0fb227fe2b",
+    commit = "3edecfed3a5bfbb5cf96cd1d008ddef57e43f6dd",
     remote = "https://github.com/pselamy/tradestar-protos",
-    shallow_since = "1645497038 -0600",
-)
-
-git_repository(
-    name = "tradestar_repos",
-    commit = "a3c6badaafb84bf54eb71b43d96152b0e63ddf8c",
-    remote = "https://github.com/pselamy/tradestar-repos",
     shallow_since = "1645497038 -0600",
 )
 
