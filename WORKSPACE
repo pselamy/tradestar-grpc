@@ -4,7 +4,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 git_repository(
     name = "tradestar_protos",
-    commit = "21e1557bfb037d020c371e548baad0864b7f66fc",
+    commit = "24210b5698858a91e6e583a82e804fa11b11bcb9",
     remote = "https://github.com/pselamy/tradestar-protos",
     shallow_since = "1650239825 -0500",
 )
