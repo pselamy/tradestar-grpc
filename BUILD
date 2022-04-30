@@ -13,6 +13,8 @@ java_grpc_library(
     protos = ["@tradestar_protos//:candle_service_proto"],
     deps = [
         "@tradestar_protos//:candles_java_proto",
+        "@tradestar_protos//:indicators_java_proto",
+        "@tradestar_protos//:instruments_java_proto",
         "@tradestar_protos//:time_java_proto",
     ],
 )
